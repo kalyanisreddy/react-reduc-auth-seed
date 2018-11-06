@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
 import SignIn from "./features/auth/SignIn";
+import SignUp from "./features/auth/SignUp";
 
 function App() {
   return (
     <div className="container" style={{ height: "100vh" }}>
-      <SignIn appName="MadeByKalyani" />
+      <SignUp appName="" />
     </div>
   );
 }
